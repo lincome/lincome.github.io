@@ -1,0 +1,375 @@
+
+
+<!DOCTYPE html>
+<html lang="zh-Hans" color-mode=light>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>docker让我们步入了工业时代 - Spartacus</title>
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="google" content="notranslate" />
+  <meta name="keywords" content="php,laravel,vue,python,前端,后端">
+  <meta name="description" content="　　这么多年的it工作经历，每每开发之前都要搭建部署各...">
+  <meta name="author" content="Spartacus">
+  <link rel="icon" href="/images/icons/favicon-16x16.png" type="image/png" sizes="16x16">
+  <link rel="icon" href="/images/icons/favicon-32x32.png" type="image/png" sizes="32x32">
+  <link rel="apple-touch-icon" href="/images/icons/apple-touch-icon.png" sizes="180x180">
+  <meta rel="mask-icon" href="/images/icons/stun-logo.svg" color="#333333">
+  
+    <meta rel="msapplication-TileImage" content="/images/icons/favicon-144x144.png">
+    <meta rel="msapplication-TileColor" content="#000000">
+  
+
+  
+<link rel="stylesheet" href="/css/style.css">
+
+
+  
+    
+<link rel="stylesheet" href="//at.alicdn.com/t/font_1445822_r673sha78lq.css">
+
+  
+
+  
+    
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css">
+
+  
+
+  
+    
+      
+        
+        
+<link rel="stylesheet" href="https://cdn.bootcss.com/highlight.js/9.18.1/styles/xcode.min.css" name="highlight-style" mode="light">
+
+      
+        
+        
+<link rel="stylesheet" href="https://cdn.bootcss.com/highlight.js/9.18.1/styles/solarized-dark.min.css" name="highlight-style" mode="dark">
+
+      
+  
+
+  <script>
+    var CONFIG = window.CONFIG || {};
+    var ZHAOO = window.ZHAOO || {};
+    CONFIG = {
+      isHome: false,
+      fancybox: true,
+      pjax: false,
+      lazyload: {
+        enable: true,
+        only_post: 'false',
+        loading: '[object Object]'
+      },
+      donate: {
+        enable: false,
+        alipay: 'https://pic.izhaoo.com/alipay.jpg',
+        wechat: 'https://pic.izhaoo.com/wechat.jpg'
+      },
+      galleries: {
+        enable: true
+      },
+      fab: {
+        enable: true,
+        always_show: true
+      },
+      carrier: {
+        enable: true
+      },
+      daovoice: {
+        enable: false
+      },
+      preview: {
+        background: {
+          default: '',
+          api: ''
+        },
+        motto: {
+          default: '我在开了灯的床头下，想问问自己的心啊。',
+          typing: true,
+          api: 'https://v2.jinrishici.com/one.json',
+          data_contents: '["data","content"]'
+        },
+      },
+      qrcode: {
+        enable: false,
+        type: 'url',
+        image: 'https://pic.izhaoo.com/weapp-code.jpg',
+      },
+      toc: {
+        enable: true
+      },
+      scrollbar: {
+        type: 'default'
+      },
+      notification: {
+        enable: false,
+        delay: 4500,
+        list: '',
+        page_white_list: '',
+        page_black_list: ''
+      },
+      search: {
+        enable: true,
+        path: 'search.xml'
+      }
+    }
+  </script>
+
+  
+
+  
+
+<meta name="generator" content="Hexo 5.4.0"></head>
+
+<body class="lock-screen">
+  <div class="loading"></div>
+  
+    
+
+
+  <nav class="navbar">
+    <div class="left">
+      
+        <i class="iconfont iconhome j-navbar-back-home"></i>
+      
+      
+      
+        <i class="iconfont iconmoono" id="color-toggle" color-toggle="light"></i>
+      
+      
+        <i class="iconfont iconsearch j-navbar-search"></i>
+      
+    </div>
+    <div class="center">docker让我们步入了工业时代</div>
+    <div class="right">
+      <i class="iconfont iconmenu j-navbar-menu"></i>
+    </div>
+    
+  </nav>
+
+  
+  
+
+<nav class="menu">
+  <div class="menu-container">
+    <div class="menu-close">
+      <i class="iconfont iconbaseline-close-px"></i>
+    </div>
+    <ul class="menu-content"><li class="menu-item">
+        <a href="/ " class="underline "> 首页</a>
+      </li><li class="menu-item">
+        <a href="/archives/ " class="underline "> 归档</a>
+      </li><li class="menu-item">
+        <a href="/tags/ " class="underline "> 标签</a>
+      </li><li class="menu-item">
+        <a href="/categories/ " class="underline "> 分类</a>
+      </li><li class="menu-item">
+        <a href="/about/ " class="underline "> 关于</a>
+      </li></ul>
+    
+      <div class="menu-copyright"><p>Powered by <a target="_blank" href="https://hexo.io">lincome</a>  |  Theme - <a target="_blank" href="https://github.com/lincome">lincome</a></p></div>
+    
+  </div>
+</nav>
+  <main id="main">
+  <div class="article-wrap">
+    <div class="row container">
+      <div class="col-xl-3"></div>
+      <div class="col-xl-6"><article class="article">
+  <div class="wrap">
+    <section class="head">
+  <img   class="lazyload" data-original="/images/theme/post-image.jpg" src="data:image/gif;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVQImWNgYGBgAAAABQABh6FO1AAAAABJRU5ErkJggg=="  draggable="false">
+  <div class="head-mask">
+    <h1 class="head-title">docker让我们步入了工业时代</h1>
+    <div class="head-info">
+      <span class="post-info-item"><i class="iconfont iconcalendar"></i>April 18, 2017</span>
+      
+      <span class="post-info-item"><i class="iconfont iconfont-size"></i>2605</span>
+    </div>
+  </div>
+</section>
+    <section class="main">
+      <section class="content">
+        <p>　　这么多年的it工作经历，每每开发之前都要搭建部署各种开发环境，jsp、C#、php、python、mysql等等等等开发环境，这些环境部署起来简直要人命，无论在windows下，还是linux下搭建，各种开发包，环境变量配置，关联文件下载，配置文件配置，折腾起来慢的得好几天时间，都会开始怀疑人生的，所以便把签名都改成：人生苦短，不要折腾！现如今才知道有docker这种神器，真是枉活20有6，docker在2013年就出来了，落后了很多年了，知识体系更新赶不上技术更新，真是惭愧，不经感叹：too young too simple！</p>
+<hr>
+<p>　　docker</p>
+<p><img    class="lazyload" data-original="/images/20161221173314498.png" src="data:image/gif;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVQImWNgYGBgAAAABQABh6FO1AAAAABJRU5ErkJggg=="   ><span class="image-caption">1</span></p>
+<h2 id="集装箱的作用"><a href="#集装箱的作用" class="headerlink" title="集装箱的作用"></a>集装箱的作用</h2><p>　　我们可以想想在集装箱这个定义出来之前的货物运输：货物一箱箱的搬上货车送到附近的火车站，然后一箱箱卸下，再一箱箱的搬上火车运送到附近的码头…</p>
+<p>　　上述的过程中不难发现大量的人力和时间成本都花费在一箱箱的搬运上面，在运输速度一定的情况下，装卸就成为了物流的瓶颈。</p>
+<p>　　在集装箱出现后这个问题得到了极大的改善。集装箱重要在它提供了一种通用的封装货物的标准规格（尺寸，外形符合统一标准），这样就产生了一个巨大的优点：在物流运输中只需要在运输前一次封装，集装箱就可以放上火车，卡车，拉到码头，直接放在货船上；卸船之后直接再放上火车，卡车，运送到目的地。而且由于集装箱符合统一标准，整个流程非常容易机械化，这引发了以集装箱为中心的整个全球物流的标准化进程，从而节省了大量的时间资源和人力资源，成本迅速下降，促进了全球资源的流动与重新配置。</p>
+<h2 id="Docker与集装箱"><a href="#Docker与集装箱" class="headerlink" title="Docker与集装箱"></a>Docker与集装箱</h2><p>　　docker就像码头的工人一样，把应用打包为一个个封装好的标准集装箱，就是大家口中经常镜像文件。那docker为业内带来了什么呢？</p>
+<h2 id="docker诞生以前，运维的蛮荒时代"><a href="#docker诞生以前，运维的蛮荒时代" class="headerlink" title="docker诞生以前，运维的蛮荒时代"></a>docker诞生以前，运维的蛮荒时代</h2><p>　　以前我们搭建一个网站，你可能会装PHP,MySQL，Apache等等一堆软件，好花费大半天的时间这个网站能正常运行起来了。</p>
+<p>　　一段时间后我们需要更高的PHP版本来搭建一个其他类型的网站，版本冲突了咋整？一番google后，费了九牛二虎之力两个网站终于能共同运行了。</p>
+<p>　　老板后来告诉你由于网站太火爆了我们需要换一台服务器迁移过去，于是你又不得不巴拉巴拉的折腾一番将所有的环境重新配置一遍。</p>
+<p>　　老板小手一拍，我们要优化我们的服务，在全国各地都建立节点提供服务，你掰一掰的你手指头发现有数不清的环境需要搭建，你的内心是崩溃的。</p>
+<h2 id="docker出现后，我们步入了工业时代"><a href="#docker出现后，我们步入了工业时代" class="headerlink" title="docker出现后，我们步入了工业时代"></a>docker出现后，我们步入了工业时代</h2><p>　　就和 集装箱 一样，docker为我们带来的是标准，具体一点说就是镜像。在docker当中镜像其实就是你把一大包工具打包成一个集装箱交于docker运行，镜像与镜像之间互不影响(集装箱与集装箱之间也是互不影响运输)。</p>
+<p>　　在docker中，镜像是无法直接运行的，我猜想这并不是技术上的原因，而是工程设计上的原因。因为一般来说，一个软件的某个具体版本只会打包成一个镜像。如果镜像可以配置，运行的话，在使用过程中很可能会对镜像造成破坏。</p>
+<p>　　那怎么样避免这个问题呢，就是再加一层，也就是相当于用了分身术，只要本尊没问题，分身怎么扑街都不会真正的跪掉。多加的这一层分身，就叫容器（Container），这个名字也挺形象，它就像个盒子一样，你的应用在里面运行，而且多了一层安全机制。你想使用服务或把你的应用跑起来的话，只需要使用镜像新创建一个容器就可以了（也是一条命令搞定），而镜像还放在那里不动，没办法，金贵嘛。</p>
+<h2 id="docker究竟做了什么？"><a href="#docker究竟做了什么？" class="headerlink" title="docker究竟做了什么？"></a>docker究竟做了什么？</h2><p>　　docker正是在部署过程中，将上面那些重复的部分，由docker自动化完成。只需要在第一次部署时，构建完可用的docker镜像。然后在以后使用的过程中，短短的几行命令，就可以直接拉取镜像，根据这个镜像创建出一个容器，把服务跑起来了。所需要的仅仅是安装了docker的服务器，一个Dockerfile文件，以及比较流畅的网络而已。真可谓 一次构建，到处部署 。</p>
+<ul>
+<li>需要nginx,直接pull nginx镜像完事</li>
+<li>迁移服务器？直接下载一个非常小的Dockerfile，安装一- 个docker环境即可，简单的不能在简单</li>
+<li>多个版本共存？新建一个镜像，爱用哪个版本用哪个，容器的隔离性让我们就是这么任性</li>
+</ul>
+<p>　　到这个地方，你可能已经发现了，docker镜像成为了一种像集装箱那样的标准货件。它不像传统的软件交付方式那样，只把代码以及说明文档之类的给你就完了，而是直接给你一个标准docker货件，它可能是Dockerfile，或者直接就是镜像，这个标准件不仅包括了代码本身，还包括了代码运行的OS等各种整体环境。</p>
+<p>　　于是，谁想用我的服务，直接拉取镜像，实例化一个容器就可以了，能直接提供你所要的服务，不再像之前那样有繁复的安装过程————这些都有人给你做过了。</p>
+<h2 id="与传统虚拟机对比"><a href="#与传统虚拟机对比" class="headerlink" title="与传统虚拟机对比"></a>与传统虚拟机对比</h2><p>　　有人可能会说，这些不是虚拟机都做到了么，还要docker干嘛？</p>
+<p>　　传统虚拟机就像一个老爷爷，走路晃晃悠悠，还需要分配资源，给予照顾才行。反观docker则像是一个健步如飞的年轻小伙子，干啥事都是一个字* 快*。</p>
+<ul>
+<li><p>容器不需要进行硬件虚拟以及运行完整操作系统等额外开销，Docker 对系统资源的利用率更高。无论是应用执行速度、内存损耗或者文件存储速度，都要比传统虚拟机技术更高效。因此，相比虚拟机技术，一个相同配置的主机，往往可以运行更多数量的应用。</p>
+</li>
+<li><p>传统的虚拟机技术启动应用服务往往需要数分钟，而 Docker 容器应用，由于直接运行于宿主内核，无需启动完整的操作系统，因此可以做到秒级、甚至毫秒级的启动时间。大大的节约了开发、测试、部署的时间。</p>
+</li>
+<li><p>Docker 使用的分层存储以及镜像的技术，使得应用重复部分的复用更为容易，也使得应用的维护更新更加简单，基于基础镜像进一步扩展镜像也变得非常简单。此外，Docker 团队同各个开源项目团队一起维护了一大批高质量的官方镜像，既可以直接在生产环境使用，又可以作为基础进一步定制，大大的降低了应用服务的镜像制作成本。</p>
+</li>
+</ul>
+<p>　　下图是docker与传统虚拟机性能对比。<br><img    class="lazyload" data-original="/images/12e0188ee1b32356.png" src="data:image/gif;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVQImWNgYGBgAAAABQABh6FO1AAAAABJRU5ErkJggg=="   ><span class="image-caption">2</span></p>
+<p>转自：<br><a target="_blank" rel="noopener" href="http://xgfe.github.io/2016/12/21/scliuyang/docker1/?utm_source=tuicool&amp;utm_medium=referral">http://xgfe.github.io/2016/12/21/scliuyang/docker1/?utm_source=tuicool&amp;utm_medium=referral</a></p>
+
+      </section>
+      <section class="extra">
+        
+        
+        
+  <ul class="tag-list" itemprop="keywords"><li class="tag-list-item"><a class="tag-list-link" href="/tags/docker/" rel="tag">docker</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E5%B7%A5%E4%B8%9A%E6%97%B6%E4%BB%A3/" rel="tag">工业时代</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E9%9B%86%E8%A3%85%E7%AE%B1/" rel="tag">集装箱</a></li></ul> 
+
+        
+  <nav class="nav">
+    <a href="/2017/05/01/2017-5-2-docker/"><i class="iconfont iconleft"></i>利用dockerfile快速搭建php+nginx+mysql环境</a>
+    <a href="/2017/04/15/2017-4-15-jcgm/">杰出公民<i class="iconfont iconright"></i></a>
+  </nav>
+
+      </section>
+      
+    </section>
+  </div>
+</article></div>
+      <div class="col-xl-3">
+        
+          
+  <aside class="toc-wrap">
+    <h3 class="toc-title">文章目录：</h3>
+    <ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#%E9%9B%86%E8%A3%85%E7%AE%B1%E7%9A%84%E4%BD%9C%E7%94%A8"><span class="toc-text">集装箱的作用</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Docker%E4%B8%8E%E9%9B%86%E8%A3%85%E7%AE%B1"><span class="toc-text">Docker与集装箱</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#docker%E8%AF%9E%E7%94%9F%E4%BB%A5%E5%89%8D%EF%BC%8C%E8%BF%90%E7%BB%B4%E7%9A%84%E8%9B%AE%E8%8D%92%E6%97%B6%E4%BB%A3"><span class="toc-text">docker诞生以前，运维的蛮荒时代</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#docker%E5%87%BA%E7%8E%B0%E5%90%8E%EF%BC%8C%E6%88%91%E4%BB%AC%E6%AD%A5%E5%85%A5%E4%BA%86%E5%B7%A5%E4%B8%9A%E6%97%B6%E4%BB%A3"><span class="toc-text">docker出现后，我们步入了工业时代</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#docker%E7%A9%B6%E7%AB%9F%E5%81%9A%E4%BA%86%E4%BB%80%E4%B9%88%EF%BC%9F"><span class="toc-text">docker究竟做了什么？</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E4%B8%8E%E4%BC%A0%E7%BB%9F%E8%99%9A%E6%8B%9F%E6%9C%BA%E5%AF%B9%E6%AF%94"><span class="toc-text">与传统虚拟机对比</span></a></li></ol>
+  </aside>
+
+        
+      </div>
+    </div>
+  </div>
+</main>
+  
+
+<footer class="footer">
+  <div class="footer-social"><a 
+        href="tencent://message/?Menu=yes&uin=59353073 "
+        target="_blank"
+        class="footer-social-item"
+        onMouseOver="this.style.color= '#12B7F5'" 
+        onMouseOut="this.style.color='#33333D'">
+          <i class="iconfont  iconQQ "></i>
+      </a><a 
+        href="https://github.com/lincome "
+        target="_blank"
+        class="footer-social-item"
+        onMouseOver="this.style.color= '#9f7be1'" 
+        onMouseOut="this.style.color='#33333D'">
+          <i class="iconfont  icongithub-fill "></i>
+      </a></div>
+  
+    <div class="footer-copyright"><p>Powered by <a target="_blank" href="https://hexo.io">lincome</a>  |  Theme - <a target="_blank" href="https://github.com/lincome">lincome</a></p></div>
+  
+</footer>
+  
+      <div class="fab fab-plus">
+    <i class="iconfont iconplus"></i>
+  </div>
+  
+  
+  <div class="fab fab-up">
+    <i class="iconfont iconcaret-up"></i>
+  </div>
+  
+  
+  
+    
+<script src="/js/color-mode.js"></script>
+
+  
+  
+    <div class="search">
+  <div class="search-container">
+    <div class="search-close">
+      <i class="iconfont iconbaseline-close-px"></i>
+    </div>
+    <div class="search-input-wrapper">
+      <i class="search-input-icon iconfont iconsearch"></i>
+      <input class="search-input" type="search" id="search-input" placeholder="Search..." autofocus autocomplete="off"
+        autocorrect="off" autocapitalize="off">
+    </div>
+    <div class="search-output" id="search-output"></div>
+  </div>
+</div>
+  
+</body>
+
+<script src="https://cdn.bootcss.com/jquery/3.4.1/jquery.min.js"></script>
+
+
+
+  
+<script src="https://cdn.bootcdn.net/ajax/libs/jquery.lazyload/1.9.1/jquery.lazyload.min.js"></script>
+
+
+
+
+  
+<script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js"></script>
+
+
+
+
+
+
+
+
+<script src="/js/utils.js"></script>
+<script src="/js/script.js"></script>
+
+
+
+
+
+
+
+  <script>
+    (function () {
+      var bp = document.createElement('script');
+      var curProtocol = window.location.protocol.split(':')[0];
+      if (curProtocol === 'https') {
+        bp.src = 'https://zz.bdstatic.com/linksubmit/push.js';
+      } else {
+        bp.src = 'http://push.zhanzhang.baidu.com/push.js';
+      }
+      var s = document.getElementsByTagName("script")[0];
+      s.parentNode.insertBefore(bp, s);
+    })();
+  </script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+</html>
