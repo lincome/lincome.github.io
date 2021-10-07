@@ -731,4 +731,24 @@
         <tag>毕业季</tag>
       </tags>
   </entry>
+  <entry>
+    <title>Docker编译安装GmSSL</title>
+    <url>/2021/10/07/Docker%E7%BC%96%E8%AF%91%E5%AE%89%E8%A3%85GmSSL/</url>
+    <content><![CDATA[<pre><code>版本：
+centos：7
+OpenSSL: 1.1.1
+GmSSL: v1
+</code></pre>
+<hr>
+<p>GmSSL资料比较少，用的也不多，踩了很多坑，整理个docker版本的，Centos7默认提供的openssl版本是1.0.2的，GmSSL依赖1.1以上版本，所以要先安装openssl 1.1以上版本</p>
+<hr>
+<p>Dockerfile文件如下:</p>
+<figure class="highlight sas"><table><tr><td class="code"><pre><code class="hljs sas"><br><span class="hljs-meta">FROM</span> centos:7<br>WORKDIR  /usr/local/gmssl<br><span class="hljs-keyword">RUN </span>yum -y install perl make gcc gcc-c++ libstdc++-devel pcre-devel zlib-devel net-tools pcre wget zip unzip openssl openssl-devel <span class="hljs-variable">&amp;&amp;</span> \<br>yum clean all <span class="hljs-variable">&amp;&amp;</span> \<br>wget https://github.com/guanzhi/GmSSL/archive/master.zip <span class="hljs-variable">&amp;&amp;</span> unzip master.zip<br><span class="hljs-keyword">RUN </span>cd GmSSL-master/ <span class="hljs-variable">&amp;&amp;</span> \<br>./config <span class="hljs-variable">&amp;&amp;</span> \<br>make <span class="hljs-variable">&amp;&amp;</span> \<br>make install<br><br></code></pre></td></tr></table></figure>]]></content>
+      <tags>
+        <tag>docker</tag>
+        <tag>GmSSL</tag>
+        <tag>OpenSSL</tag>
+        <tag>centos</tag>
+      </tags>
+  </entry>
 </search>
