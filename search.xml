@@ -119,6 +119,21 @@
       </categories>
   </entry>
   <entry>
+    <title>编程语言的历史</title>
+    <url>/2017/05/10/2017-5-10-history/</url>
+    <content><![CDATA[<p>　　一个个字符，随着敲击键盘的哒哒声，经由或是懵懂或是老练的程序员指尖的跃动，最终呈现为显示器上一行行的代码。它们就这样，一行接一行随着回车与换行不停的跳动。那，是眼前这个人悦动的灵魂，它一点一点、一行行慢慢的实现着屏幕前这个程序员的梦想，也一点点，一步步推动着时代的发展，社会的变迁。</p>
+<p><img  src="/images/201576105840742.jpg"  ><span class="image-caption">images</span></p>
+]]></content>
+      <categories>
+        <category>技术</category>
+      </categories>
+      <tags>
+        <tag>编程</tag>
+        <tag>历史</tag>
+        <tag>C语言</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>docker让我们步入了工业时代</title>
     <url>/2017/04/18/2017-4-18-docker/</url>
     <content><![CDATA[<p>　　这么多年的it工作经历，每每开发之前都要搭建部署各种开发环境，jsp、C#、php、python、mysql等等等等开发环境，这些环境部署起来简直要人命，无论在windows下，还是linux下搭建，各种开发包，环境变量配置，关联文件下载，配置文件配置，折腾起来慢的得好几天时间，都会开始怀疑人生的，所以便把签名都改成：人生苦短，不要折腾！现如今才知道有docker这种神器，真是枉活20有6，docker在2013年就出来了，落后了很多年了，知识体系更新赶不上技术更新，真是惭愧，不经感叹：too young too simple！</p>
@@ -165,21 +180,6 @@
         <tag>工业时代</tag>
         <tag>集装箱</tag>
         <tag>给女朋友解释系列</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>编程语言的历史</title>
-    <url>/2017/05/10/2017-5-10-history/</url>
-    <content><![CDATA[<p>　　一个个字符，随着敲击键盘的哒哒声，经由或是懵懂或是老练的程序员指尖的跃动，最终呈现为显示器上一行行的代码。它们就这样，一行接一行随着回车与换行不停的跳动。那，是眼前这个人悦动的灵魂，它一点一点、一行行慢慢的实现着屏幕前这个程序员的梦想，也一点点，一步步推动着时代的发展，社会的变迁。</p>
-<p><img  src="/images/201576105840742.jpg"  ><span class="image-caption">images</span></p>
-]]></content>
-      <categories>
-        <category>技术</category>
-      </categories>
-      <tags>
-        <tag>编程</tag>
-        <tag>历史</tag>
-        <tag>C语言</tag>
       </tags>
   </entry>
   <entry>
@@ -275,6 +275,26 @@
       </tags>
   </entry>
   <entry>
+    <title>四种常见的 POST 提交数据方式</title>
+    <url>/2017/05/08/2017-5-9-post/</url>
+    <content><![CDATA[<p>　　HTTP/1.1 协议规定的 HTTP 请求方法有 OPTIONS、GET、HEAD、POST、PUT、DELETE、TRACE、CONNECT 这几种。其中 POST 一般用来向服务端提交数据，本文主要讨论 POST 提交数据的几种方式。</p>
+<ul>
+<li>application/x-www-form-urlencoded(默认)</li>
+<li>multipart/form-data</li>
+<li>application/json</li>
+<li>text/xml</li>
+</ul>
+<p>　　在跨域的时候，除了contentType为application/x-www-form-urlencoded, multipart/form-data或者text/plain外，都会触发浏览器先发送方法为OPTIONS的请求。</p>
+]]></content>
+      <categories>
+        <category>技术</category>
+      </categories>
+      <tags>
+        <tag>JS</tag>
+        <tag>POST</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>new world</title>
     <url>/2017/05/05/2017-5-5-neworld/</url>
     <content><![CDATA[<p>　　“既然上班是一种煎熬，为什么不离职呢？”长久以来一直萦绕在心头的一个问题。。。再等等，下个月就离，先过了这个月再说！有人为了家庭，有人为了生计，可却有人不知道为了什么，既没有家庭，也没生计的困扰，可还是宁愿待在岗位上不动，宁愿就这么待着，明知不喜欢这份工作，它也不会给自己带来明天，也不知道整天待在这个岗位上是为了什么?</p>
@@ -316,26 +336,6 @@
       </tags>
   </entry>
   <entry>
-    <title>四种常见的 POST 提交数据方式</title>
-    <url>/2017/05/08/2017-5-9-post/</url>
-    <content><![CDATA[<p>　　HTTP/1.1 协议规定的 HTTP 请求方法有 OPTIONS、GET、HEAD、POST、PUT、DELETE、TRACE、CONNECT 这几种。其中 POST 一般用来向服务端提交数据，本文主要讨论 POST 提交数据的几种方式。</p>
-<ul>
-<li>application/x-www-form-urlencoded(默认)</li>
-<li>multipart/form-data</li>
-<li>application/json</li>
-<li>text/xml</li>
-</ul>
-<p>　　在跨域的时候，除了contentType为application/x-www-form-urlencoded, multipart/form-data或者text/plain外，都会触发浏览器先发送方法为OPTIONS的请求。</p>
-]]></content>
-      <categories>
-        <category>技术</category>
-      </categories>
-      <tags>
-        <tag>JS</tag>
-        <tag>POST</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>PHP标准规范</title>
     <url>/2017/06/24/2017-6-24-psr/</url>
     <content><![CDATA[<p>　　近段时间在做一个团购系统的二次开发，发现各种方法、变量等的命名、框架技术太陈旧了，如果人人都能够用标准的php规范（psr1~4）来编码，那这个世界就清净多了！</p>
@@ -364,218 +364,6 @@
         <tag>psr</tag>
         <tag>标准</tag>
         <tag>规范</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>短歌行</title>
-    <url>/2017/07/13/2017-7-13-dgx/</url>
-    <content><![CDATA[<p>对酒当歌，人生几何！譬如朝露，去日苦多。</p>
-<p>慨当以慷，忧思难忘。何以解忧？唯有杜康。</p>
-<p>青青子衿，悠悠我心。但为君故，沉吟至今。</p>
-<p>呦呦鹿鸣，食野之苹。我有嘉宾，鼓瑟吹笙。</p>
-<p>明明如月，何时可掇？忧从中来，不可断绝。</p>
-<p>越陌度阡，枉用相存。契阔谈讌，心念旧恩。</p>
-<p>月明星稀，乌鹊南飞。绕树三匝，何枝可依？</p>
-<p>山不厌高，海不厌深。周公吐哺，天下归心。</p>
-<hr>
-<p>曹操一生求贤若渴，才华横溢！伟大的政治家、诗人！</p>
-]]></content>
-      <categories>
-        <category>文学</category>
-      </categories>
-      <tags>
-        <tag>曹操</tag>
-        <tag>司马懿</tag>
-        <tag>曹丕</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>女儿情</title>
-    <url>/2017/07/23/2017-7-23-neq/</url>
-    <content><![CDATA[<p>鸳鸯双栖蝶双飞</p>
-<p>满园春色惹人醉</p>
-<p>悄悄问圣僧</p>
-<p>女儿美不美</p>
-<p>女儿美不美</p>
-<p>说什么王权富贵</p>
-<p>怕什么戒律清规</p>
-<p>只愿天长地久</p>
-<p>与我意中人儿紧相随</p>
-<p>爱恋依 爱恋依</p>
-<p>愿今生长相随</p>
-<p>愿今生长相随</p>
-<p>长相随</p>
-<hr>
-<p>好听！</p>
-]]></content>
-      <categories>
-        <category>歌曲</category>
-      </categories>
-      <tags>
-        <tag>女儿情</tag>
-        <tag>越云鹏</tag>
-        <tag>西游记</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Hello World</title>
-    <url>/2017/03/10/hello-world/</url>
-    <content><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="code"><pre><code class="hljs bash">$ hexo new <span class="hljs-string">&quot;My New Post&quot;</span><br></code></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="code"><pre><code class="hljs bash">$ hexo server<br></code></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="code"><pre><code class="hljs bash">$ hexo generate<br></code></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="code"><pre><code class="hljs bash">$ hexo deploy<br></code></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/deployment.html">Deployment</a></p>
-]]></content>
-      <categories>
-        <category>技术</category>
-      </categories>
-  </entry>
-  <entry>
-    <title>hexo博客搬迁到solo啦</title>
-    <url>/2019/10/14/201910/hexo%E5%8D%9A%E5%AE%A2%E6%90%AC%E8%BF%81%E5%88%B0solo%E5%95%A6/</url>
-    <content><![CDATA[<p>试用下看看好用不，两年没写了，时间过的太快了！</p>
-]]></content>
-      <tags>
-        <tag>迁移</tag>
-        <tag>博客</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>人是怎么废掉的？</title>
-    <url>/2019/10/20/201910/%E4%BA%BA%E6%98%AF%E6%80%8E%E4%B9%88%E5%BA%9F%E6%8E%89%E7%9A%84/</url>
-    <content><![CDATA[<p><img src="https://img.hacpai.com/bing/20180607.jpg?imageView2/1/w/960/h/540/interlace/1/q/100"></p>
-<p><strong>人是怎么废掉的？</strong></p>
-<p>01</p>
-<p><strong>沉溺于「轻易获得高成就感」的事情</strong></p>
-<p>有意无意地寻求用很小付出获得很大「回报」的偏方，哪怕回报是虚拟的。这种行为会提升自己的「兴奋阈值」，让人越来越不容易拥有成就感，从而越来越依赖虚拟的成就感，陷入恶性循环。</p>
-<p>症状轻的<strong>：沉溺游戏</strong>（在虚拟世界中加快时间流逝的速度，使得「成功」来得更快）、<strong>种马小说</strong>（意淫人能轻易获得想要的东西）；</p>
-<p>症状重甚至犯法的：<strong>赌博</strong>（轻易获得「金钱」）、<strong>吸毒</strong>（轻易获得「爽」的感觉）等。</p>
-<p>02</p>
-<p><strong>只接收「低信息密度」的信息源</strong></p>
-<p>只愿意接收信息密度低的信息（如无需太多动脑的视频、图片，以及深度较浅的娱乐、八卦、体育新闻等）。</p>
-<p>不愿意接收信息密度高、需要思考后才能吸收的信息（如课程、知识框架、分析报告等）。</p>
-<p>由于真正有价值、能让人进步的信息大多是需要思考和消化的，所以如果完全隔离了这部分内容，基本也就隔离了进步的可能。</p>
-<p>03</p>
-<p><strong>习惯用「错位成就感」麻痹自己</strong></p>
-<p>有两类：① 习惯于拿自己擅长的东西和别人不擅长的东西比较，从来获得「比别人强」的错觉（如：和运动员比学习成绩，和学霸比体育）；</p>
-<p>② 习惯于拿别人做事情 A 的时间来做事情 B，来假装自己在事情 B 上做得好（如：「炫耀」自己在节假日做了比别人更多的工作，但也仅仅是在节假日才能如此）。</p>
-<p>04</p>
-<p><strong>过度依赖「既有可行路径」</strong></p>
-<p>在工作中，习惯了一件事情的流程后再也没想过如何改进，只会机械地重复，然后骗自己很充实。</p>
-<p>没有改进，便也没有剔除糟粕的意识，于是需要重复的东西越来越多，消耗时间也越来越长，到最后，看上去每天做了很多事情，但其实不仅一点进步都没有，还挤占了进步的空间。</p>
-<p>05</p>
-<p><strong>封闭「强化学习」的通道</strong></p>
-<p>在学习或接受信息中，只愿意执行最简单的第一步，却不愿意执行接下来更为复杂的巩固和应用流程，只听不说、只看不写、只学不练，还麻痹自己说学到了很多东西，而实际上，这种「浅层」的学习遗忘极快，有时还不如不学。</p>
-<p>比如，天天学英语，却从不写英语文章；再比如，天天刷知乎，却从不写答案、写总结。</p>
-<hr>
-<ol>
-<li><p>当你给自己画了个圈圈，还永不逾越的时候。</p>
-</li>
-<li><p>当你觉得在你的家族里，就出了你一个大学生，仅仅本科毕了业也很厉害的时候。</p>
-</li>
-<li><p>当你觉得你家里没有门路，比不上那些家里走后门，有门路的同学而自暴自弃的时候。</p>
-</li>
-<li><p>当你觉得自己家里人脉广泛，家里财力富余的时候而不思进取的时候。</p>
-</li>
-<li><p>当你觉得下次努力就好的时候。</p>
-</li>
-<li><p>当你习惯把今天的事情放到明天做的时候。</p>
-</li>
-<li><p>当你今天还做不完昨天的事情，还要放到明天去做的时候。</p>
-</li>
-<li><p>当你总是在碰到困难时安慰自己，觉得自己比我那些没上高中的初中同学，没上大学的高中同学强多了的时候。</p>
-</li>
-</ol>
-<p>转载至：<a href="https://mp.weixin.qq.com/s/6tG9-b_mcIQkyJdcu5mJmQ">https://mp.weixin.qq.com/s/6tG9-b_mcIQkyJdcu5mJmQ</a></p>
-]]></content>
-      <tags>
-        <tag>积极强化学习</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>在搬砖的路上越走越远</title>
-    <url>/2019/10/17/201910/%E5%9C%A8%E6%90%AC%E7%A0%96%E7%9A%84%E8%B7%AF%E4%B8%8A%E8%B6%8A%E8%B5%B0%E8%B6%8A%E8%BF%9C/</url>
-    <content><![CDATA[<p><img src="https://img.hacpai.com/bing/20180411.jpg?imageView2/1/w/960/h/540/interlace/1/q/100"> </p>
-<h2 id="我所经历的三次裁员"><a href="#我所经历的三次裁员" class="headerlink" title="我所经历的三次裁员"></a>我所经历的三次裁员</h2><p>先从一则新闻说起：</p>
-<blockquote>
-<p>人民网旧金山9月19日电(邓圩 宫欣)当地时间9月19日，位于旧金山湾区Menlo Park的Facebook总部内，一名男子从园区内的一栋办公楼4楼跳下，现场死亡。</p>
-<p>当天下午，Facebook发布声明证实死者为该公司的一名员工，系自杀身亡，目前已经通知了该员工家人。</p>
-</blockquote>
-<p>可能是类似的事情发生的较多，这个事件并没有引起多大反响。直到最近<strong>Facebook华裔员工为自杀同胞求真相遭无理开除</strong>，事件才得以发酵，引发了广泛的关注，许多媒体开始发声。关于这个事件，我其实也没有什么好说，只想借我所亲历的三次裁员，谈谈我的想法。</p>
-<p>第一次裁员发生在2009年，那时我已经三十好几，传说中程序员年龄的上限。公司当时裁掉的是做导航产品的部门，主要原因还不是因为智能手机的冲击，而是做民用终端产品，无法和广东那边的厂家竞争。当然智能手机取代车载导航，也是后来的事情，公司领导当时也看得比较明白，趋势无法阻挡，所以裁员非常彻底，一锅端了。</p>
-<p>第二次裁员发生在2016年，彼时我已年届不惑之年。这次裁员原因很简单，就是有钱的时候拼命招人，最后钱烧完了，没法养这么多人，只好精简。每个项目组都精简一部分人，最后加上自愿走的，差不多有一半，幅度还是相当大。</p>
-<p>第三次裁员发生在2017年年底，这次裁员是因为上次裁过之后，公司仍然没有起色，本来期望和特殊部门合作的项目，也黄了，只好砍掉一些产品线。所以这次裁员也比较粗暴，直接干掉了几个项目组，从上到下，无一幸免。</p>
-<p>经历了这几次裁员，也算是过来人，所以想谈谈对裁员的看法。</p>
-<p>首先，裁员可能并不是我们想象的那样，是因为工作不努力或者能力差，有时真是因为一些不可控原因，比如碰上公司转型、精简产品线，就像我经历的第一次和第三次裁员，都是从上到下一锅端，并不会因为能力强或者人际关系留下。所以，以后如果大家在招聘过程中看到有因为裁员而求职的，不要有歧视，也许别人只是运气不好。而被裁的人，更不要怀疑自己，觉得是因为自己哪里做的不够好，也许是因为你太优秀了，所以现在才不需要你。如果走出去，也许会看到更大的世界，开拓一片新天地。</p>
-<p>其次，我们也要弄清楚个人和企业之间的关系。国庆节看了《我和我的祖国》，其中有一个片段，是讲张译饰演的科研人员，冒着生命危险挽救了一场事故，而因此遭辐射致死。看到这一段，我也很感动，当时研究原子弹的科研人员，因为保密原因，和亲人都无法联系，一心扑在工作上，才有原子弹的诞生，的确令人钦佩。但时代不同，个人和企业之间的关系也发生了很大的变化，变成了雇佣关系。通俗来讲，就是拿钱办事，互不两欠。在现代企业，还冒着生命生命危险去挽救公司财产，那才是脑子进水了。如果厘清了个人和企业之间的关系，不妨以平常心看待裁员，无非是企业不再需要我们，不愿意付钱购买我们的工作时间，也许从情感上讲，有些不近情理。但我们如果反过来想，如果个人因为一些原因辞职，企业和你谈情感，百般阻拦，你是不是也会觉得这家企业有毛病？所以，碰到裁员，不要觉得特别憋屈，好像全世界对不起你。拿到赔偿金，潇洒的走人。如果企业不付赔偿金，违反劳动法，那是另外一个话题，这里就不展开。</p>
-<p>为什么现代企业不像以前那样实行终身制？这是总结了无数失败的案例，才得到现在的企业制度。想想以前的大锅饭，吃着吃着，锅里就没饭了。那种终身制，只适合集中能力干大事的时期，在民用领域，还是竞争促进发展，最为高效。如果你还觉得进一个企业干终身比较好，可以看看隔壁的日本，年轻人没有上升通道，才是一件令人绝望的事情。</p>
-<p>最后，之前发生的几次裁员自杀事件，都是压力过大导致的。这就要求个人不要超出自己负担能力，就如同程序设计一样，留一点冗余。年轻人给自己一点压力不是一点坏事，但这个度最好不要超过自身能力太多。这就如同你平常跑步能跑3公里，下次可以增加到5公里，但不要一下子加码到10公里。对于年轻人来说，最大的负担可能就是买房，需要规划一下首付如何付，月供能承担多少。如果你能负担起100万的房子，咬咬牙也许可以冲击一下150万左右的，但一下子就跳到200万，那就有些过分了。至于什么网贷，就别碰了，那不是普通人能够hold住的。另外预留一两个月的月供和生活费也是必须的，以防遭到裁员，一下子没有经济来源，而生活崩溃。即使真的沦落到无钱还房贷和缺少生活费的地步，也请脸皮放厚一点，向父母、亲戚朋友求援。</p>
-<p>最后的最后，当然是提高自身能力，让你有能力快速找到下一份工作。在这个社会，只要不懒，没病没痛，一份糊口的工作还是百分之百可以找到。</p>
-<p>BTW，保持身体健康也很重要，所以和我一样，跑起来吧！</p>
-<p>转载自：<a href="https://mp.weixin.qq.com/s/d-T6XRGdDl_YJ2Jvu88i2w">https://mp.weixin.qq.com/s/d-T6XRGdDl_YJ2Jvu88i2w</a></p>
-]]></content>
-      <tags>
-        <tag>裁员</tag>
-        <tag>知己知彼</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>我在 GitHub 上的开源项目</title>
-    <url>/2019/10/14/201910/%E6%88%91%E5%9C%A8GitHub%E4%B8%8A%E7%9A%84%E5%BC%80%E6%BA%90%E9%A1%B9%E7%9B%AE/</url>
-    <content><![CDATA[<!-- 该页面会被定时任务自动覆盖，所以请勿手工更新 -->
-<!-- 如果你有更漂亮的排版方式，请发 issue 告诉我们 -->
-
-<h3 id="1-sfc-PHP-🤩0-nbsp-nbsp-⭐️4-nbsp-nbsp-🖖3"><a href="#1-sfc-PHP-🤩0-nbsp-nbsp-⭐️4-nbsp-nbsp-🖖3" class="headerlink" title="1. sfc PHP 🤩0&nbsp;&nbsp;⭐️4&nbsp;&nbsp;🖖3"></a>1. <a href="https://github.com/lincome/sfc">sfc</a> <kbd title="主要编程语言">PHP</kbd> <span style="font-size: 12px;"><a href="https://github.com/lincome/sfc/watchers" title="关注数">🤩<code>0</code></a>&nbsp;&nbsp;<a href="https://github.com/lincome/sfc/stargazers" title="收藏数">⭐️<code>4</code></a>&nbsp;&nbsp;<a href="https://github.com/lincome/sfc/network/members" title="分叉数">🖖<code>3</code></a></span></h3><p>laravel5.4+vue2.0开发的顺风车及后台</p>
-<hr>
-<h3 id="2-jxc-🤩0-nbsp-nbsp-⭐️1-nbsp-nbsp-🖖0"><a href="#2-jxc-🤩0-nbsp-nbsp-⭐️1-nbsp-nbsp-🖖0" class="headerlink" title="2. jxc  🤩0&nbsp;&nbsp;⭐️1&nbsp;&nbsp;🖖0"></a>2. <a href="https://github.com/lincome/jxc">jxc</a> <kbd title="主要编程语言"></kbd> <span style="font-size: 12px;"><a href="https://github.com/lincome/jxc/watchers" title="关注数">🤩<code>0</code></a>&nbsp;&nbsp;<a href="https://github.com/lincome/jxc/stargazers" title="收藏数">⭐️<code>1</code></a>&nbsp;&nbsp;<a href="https://github.com/lincome/jxc/network/members" title="分叉数">🖖<code>0</code></a></span></h3><hr>
-<h3 id="3-to-live-🤩0-nbsp-nbsp-⭐️1-nbsp-nbsp-🖖0"><a href="#3-to-live-🤩0-nbsp-nbsp-⭐️1-nbsp-nbsp-🖖0" class="headerlink" title="3. to-live  🤩0&nbsp;&nbsp;⭐️1&nbsp;&nbsp;🖖0"></a>3. <a href="https://github.com/lincome/to-live">to-live</a> <kbd title="主要编程语言"></kbd> <span style="font-size: 12px;"><a href="https://github.com/lincome/to-live/watchers" title="关注数">🤩<code>0</code></a>&nbsp;&nbsp;<a href="https://github.com/lincome/to-live/stargazers" title="收藏数">⭐️<code>1</code></a>&nbsp;&nbsp;<a href="https://github.com/lincome/to-live/network/members" title="分叉数">🖖<code>0</code></a></span></h3><p>活着(余华)</p>
-<hr>
-<h3 id="4-solo-blog-🤩0-nbsp-nbsp-⭐️0-nbsp-nbsp-🖖0-nbsp-nbsp-🏠https-blog-recordsmylife-com"><a href="#4-solo-blog-🤩0-nbsp-nbsp-⭐️0-nbsp-nbsp-🖖0-nbsp-nbsp-🏠https-blog-recordsmylife-com" class="headerlink" title="4. solo-blog  🤩0&nbsp;&nbsp;⭐️0&nbsp;&nbsp;🖖0&nbsp;&nbsp;🏠https://blog.recordsmylife.com"></a>4. <a href="https://github.com/lincome/solo-blog">solo-blog</a> <kbd title="主要编程语言"></kbd> <span style="font-size: 12px;"><a href="https://github.com/lincome/solo-blog/watchers" title="关注数">🤩<code>0</code></a>&nbsp;&nbsp;<a href="https://github.com/lincome/solo-blog/stargazers" title="收藏数">⭐️<code>0</code></a>&nbsp;&nbsp;<a href="https://github.com/lincome/solo-blog/network/members" title="分叉数">🖖<code>0</code></a>&nbsp;&nbsp;<a href="https://blog.recordsmylife.com/" title="项目主页">🏠<code>https://blog.recordsmylife.com</code></a></span></h3><p>lincome 的个人博客 - 记录精彩的程序人生</p>
-<hr>
-<h3 id="5-Localization-of-Gmail-🤩0-nbsp-nbsp-⭐️0-nbsp-nbsp-🖖0"><a href="#5-Localization-of-Gmail-🤩0-nbsp-nbsp-⭐️0-nbsp-nbsp-🖖0" class="headerlink" title="5. Localization-of-Gmail  🤩0&nbsp;&nbsp;⭐️0&nbsp;&nbsp;🖖0"></a>5. <a href="https://github.com/lincome/Localization-of-Gmail">Localization-of-Gmail</a> <kbd title="主要编程语言"></kbd> <span style="font-size: 12px;"><a href="https://github.com/lincome/Localization-of-Gmail/watchers" title="关注数">🤩<code>0</code></a>&nbsp;&nbsp;<a href="https://github.com/lincome/Localization-of-Gmail/stargazers" title="收藏数">⭐️<code>0</code></a>&nbsp;&nbsp;<a href="https://github.com/lincome/Localization-of-Gmail/network/members" title="分叉数">🖖<code>0</code></a></span></h3><p>Localization of Gmail</p>
-]]></content>
-      <tags>
-        <tag>开源</tag>
-        <tag>GitHub</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>送我上青云</title>
-    <url>/2019/11/03/201911/%E9%80%81%E6%88%91%E4%B8%8A%E9%9D%92%E4%BA%91/</url>
-    <content><![CDATA[<h2 id="enjoy-your-life"><a href="#enjoy-your-life" class="headerlink" title="enjoy your life"></a>enjoy your life</h2><p>每个周末开始都是从消沉的意志开始，爬了两天山，呼吸室外新鲜空气得以重生，胡思乱想了很多很多，唯有今晚的电影让我彻底的缓过神来，被癌症影响的主人公还可以如此乐观，不自卑的骄傲的活着，被背圆周率的文艺男弄笑的不行，笑着的心却是极寒的，一定要自己决定自己的人生，要有足够的底气去掌控自己的人生，不低头，勇往直前，，，同时不做“有德无才”的stupid，害人害己！</p>
-<p>奇怪的是将ios的siri语言设置为英文之后，一直 say “hey siri” 无法识别到，语言能力变得越来越脆弱了，have a good night and sweet dreams.</p>
-]]></content>
-      <tags>
-        <tag>人生</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>鸿门宴</title>
-    <url>/2019/11/10/201911/%E9%B8%BF%E9%97%A8%E5%AE%B4/</url>
-    <content><![CDATA[<h2 id="兴趣使然，画个故事脑图"><a href="#兴趣使然，画个故事脑图" class="headerlink" title="兴趣使然，画个故事脑图"></a>兴趣使然，画个故事脑图</h2><p>感叹中华文化博大精深，勾心斗角永无止境<br><a href="http://naotu.baidu.com/file/9a7e19e5979e0dbed48a56efd6ef12fb?token=a8bd1c9f070c4bde">点击查看鸿门宴</a></p>
-]]></content>
-      <tags>
-        <tag>楚汉相争鸿门宴</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>乐观勇敢的活着</title>
-    <url>/2019/12/18/201912/%E4%B9%90%E8%A7%82%E5%8B%87%E6%95%A2%E7%9A%84%E6%B4%BB%E7%9D%80/</url>
-    <content><![CDATA[<h2 id="2019即将过去，焦虑不断升级，用多年前一本书上的一段话镇定自己。"><a href="#2019即将过去，焦虑不断升级，用多年前一本书上的一段话镇定自己。" class="headerlink" title="2019即将过去，焦虑不断升级，用多年前一本书上的一段话镇定自己。"></a>2019即将过去，焦虑不断升级，用多年前一本书上的一段话镇定自己。</h2><blockquote>
-<p>我喜欢我自己，我就是我。没有比这更美好段了，包括我的出生、我的生长，我因为我就是我而庆幸。无论我生在什么时代，我都不愿成为别的什么人，而只愿成为自己。</p>
-</blockquote>
-]]></content>
-      <tags>
-        <tag>乐观</tag>
-        <tag>积极</tag>
       </tags>
   </entry>
   <entry>
@@ -722,13 +510,71 @@
       </tags>
   </entry>
   <entry>
-    <title>永远年轻，永远热泪盈眶。</title>
-    <url>/2021/06/08/%E5%8D%9A%E5%AE%A2%E5%8F%88%E4%BB%8Esolo%E6%90%AC%E8%BF%81%E5%9B%9Ehexo/</url>
-    <content><![CDATA[<p>几经周折，距上次写博客又快两年了，买了服务器和域名，没想到一忙下又过期了，还是迁移回免费的gitpage省事,今天正好还是2021高考的第二天，未来的你永远都会记得紧张兴奋勇敢的今天，永远年轻，永远热泪盈眶。</p>
+    <title>女儿情</title>
+    <url>/2017/07/23/2017-7-23-neq/</url>
+    <content><![CDATA[<p>鸳鸯双栖蝶双飞</p>
+<p>满园春色惹人醉</p>
+<p>悄悄问圣僧</p>
+<p>女儿美不美</p>
+<p>女儿美不美</p>
+<p>说什么王权富贵</p>
+<p>怕什么戒律清规</p>
+<p>只愿天长地久</p>
+<p>与我意中人儿紧相随</p>
+<p>爱恋依 爱恋依</p>
+<p>愿今生长相随</p>
+<p>愿今生长相随</p>
+<p>长相随</p>
+<hr>
+<p>好听！</p>
+]]></content>
+      <categories>
+        <category>歌曲</category>
+      </categories>
+      <tags>
+        <tag>女儿情</tag>
+        <tag>越云鹏</tag>
+        <tag>西游记</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>短歌行</title>
+    <url>/2017/07/13/2017-7-13-dgx/</url>
+    <content><![CDATA[<p>对酒当歌，人生几何！譬如朝露，去日苦多。</p>
+<p>慨当以慷，忧思难忘。何以解忧？唯有杜康。</p>
+<p>青青子衿，悠悠我心。但为君故，沉吟至今。</p>
+<p>呦呦鹿鸣，食野之苹。我有嘉宾，鼓瑟吹笙。</p>
+<p>明明如月，何时可掇？忧从中来，不可断绝。</p>
+<p>越陌度阡，枉用相存。契阔谈讌，心念旧恩。</p>
+<p>月明星稀，乌鹊南飞。绕树三匝，何枝可依？</p>
+<p>山不厌高，海不厌深。周公吐哺，天下归心。</p>
+<hr>
+<p>曹操一生求贤若渴，才华横溢！伟大的政治家、诗人！</p>
+]]></content>
+      <categories>
+        <category>文学</category>
+      </categories>
+      <tags>
+        <tag>曹操</tag>
+        <tag>司马懿</tag>
+        <tag>曹丕</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>随波逐流，还是选择为自己而战</title>
+    <url>/2021/12/31/2021%E6%9C%80%E5%90%8E%E4%B8%80%E5%A4%A9/</url>
+    <content><![CDATA[<p>三十功名尘与土，白千里路云和月，莫等闲白了少年头，空悲切</p>
+<hr>
+<p>小学，初中，高中，大学，历次的工作，平凡的30年，无数浮浮沉沉，有点累，有点迷茫，，，2021选择为自己勇敢一回，毫不犹豫的勇敢去体验人生的不确定、迷茫，以及无限可能，辞职、创业、、、再就业，最后向梦想（房产）低头了，一言难尽，虽败犹荣！</p>
+<p>每一阶段的经历都想时间停止在此刻，有时候突然间的毅然决然的离开，不是多讨厌环境，只是害怕因为有些人的关心而奔溃，多想人生简简单单，不为了所谓的理想，抱负，只为了当下真挚可爱的人们……但是每一次都是被现实打的粉碎……很多人选择了随波逐流，选择停留，选择内心的平静……但还是要致敬为自己而战的日子，生命不熄，战斗不止，酸甜苦辣不止……每一次的离别都是为了更好的相遇</p>
+<p>人世间最快乐的事，莫过于在追逐梦想的道路上，竭尽全力，酸甜苦辣样样齐全，虽然微不足道，但是可以换取好的心情。</p>
+<p>2022，前路会更艰辛，即使社会压抑的让人无奈，还是选择努力去抗争，不甘于平凡，生生不息，继续加油！</p>
 ]]></content>
       <tags>
-        <tag>hexo</tag>
-        <tag>毕业季</tag>
+        <tag>2021</tag>
+        <tag>平凡</tag>
+        <tag>人生</tag>
+        <tag>奋斗</tag>
       </tags>
   </entry>
   <entry>
@@ -749,6 +595,177 @@ GmSSL: v1
         <tag>GmSSL</tag>
         <tag>OpenSSL</tag>
         <tag>centos</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Hello World</title>
+    <url>/2017/03/10/hello-world/</url>
+    <content><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
+<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="code"><pre><code class="hljs bash">$ hexo new <span class="hljs-string">&quot;My New Post&quot;</span><br></code></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p>
+<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="code"><pre><code class="hljs bash">$ hexo server<br></code></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p>
+<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="code"><pre><code class="hljs bash">$ hexo generate<br></code></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p>
+<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="code"><pre><code class="hljs bash">$ hexo deploy<br></code></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/deployment.html">Deployment</a></p>
+]]></content>
+      <categories>
+        <category>技术</category>
+      </categories>
+  </entry>
+  <entry>
+    <title>hexo博客搬迁到solo啦</title>
+    <url>/2019/10/14/201910/hexo%E5%8D%9A%E5%AE%A2%E6%90%AC%E8%BF%81%E5%88%B0solo%E5%95%A6/</url>
+    <content><![CDATA[<p>试用下看看好用不，两年没写了，时间过的太快了！</p>
+]]></content>
+      <tags>
+        <tag>迁移</tag>
+        <tag>博客</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>永远年轻，永远热泪盈眶。</title>
+    <url>/2021/06/08/%E5%8D%9A%E5%AE%A2%E5%8F%88%E4%BB%8Esolo%E6%90%AC%E8%BF%81%E5%9B%9Ehexo/</url>
+    <content><![CDATA[<p>几经周折，距上次写博客又快两年了，买了服务器和域名，没想到一忙下又过期了，还是迁移回免费的gitpage省事,今天正好还是2021高考的第二天，未来的你永远都会记得紧张兴奋勇敢的今天，永远年轻，永远热泪盈眶。</p>
+]]></content>
+      <tags>
+        <tag>hexo</tag>
+        <tag>毕业季</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>人是怎么废掉的？</title>
+    <url>/2019/10/20/201910/%E4%BA%BA%E6%98%AF%E6%80%8E%E4%B9%88%E5%BA%9F%E6%8E%89%E7%9A%84/</url>
+    <content><![CDATA[<p><img src="https://img.hacpai.com/bing/20180607.jpg?imageView2/1/w/960/h/540/interlace/1/q/100"></p>
+<p><strong>人是怎么废掉的？</strong></p>
+<p>01</p>
+<p><strong>沉溺于「轻易获得高成就感」的事情</strong></p>
+<p>有意无意地寻求用很小付出获得很大「回报」的偏方，哪怕回报是虚拟的。这种行为会提升自己的「兴奋阈值」，让人越来越不容易拥有成就感，从而越来越依赖虚拟的成就感，陷入恶性循环。</p>
+<p>症状轻的<strong>：沉溺游戏</strong>（在虚拟世界中加快时间流逝的速度，使得「成功」来得更快）、<strong>种马小说</strong>（意淫人能轻易获得想要的东西）；</p>
+<p>症状重甚至犯法的：<strong>赌博</strong>（轻易获得「金钱」）、<strong>吸毒</strong>（轻易获得「爽」的感觉）等。</p>
+<p>02</p>
+<p><strong>只接收「低信息密度」的信息源</strong></p>
+<p>只愿意接收信息密度低的信息（如无需太多动脑的视频、图片，以及深度较浅的娱乐、八卦、体育新闻等）。</p>
+<p>不愿意接收信息密度高、需要思考后才能吸收的信息（如课程、知识框架、分析报告等）。</p>
+<p>由于真正有价值、能让人进步的信息大多是需要思考和消化的，所以如果完全隔离了这部分内容，基本也就隔离了进步的可能。</p>
+<p>03</p>
+<p><strong>习惯用「错位成就感」麻痹自己</strong></p>
+<p>有两类：① 习惯于拿自己擅长的东西和别人不擅长的东西比较，从来获得「比别人强」的错觉（如：和运动员比学习成绩，和学霸比体育）；</p>
+<p>② 习惯于拿别人做事情 A 的时间来做事情 B，来假装自己在事情 B 上做得好（如：「炫耀」自己在节假日做了比别人更多的工作，但也仅仅是在节假日才能如此）。</p>
+<p>04</p>
+<p><strong>过度依赖「既有可行路径」</strong></p>
+<p>在工作中，习惯了一件事情的流程后再也没想过如何改进，只会机械地重复，然后骗自己很充实。</p>
+<p>没有改进，便也没有剔除糟粕的意识，于是需要重复的东西越来越多，消耗时间也越来越长，到最后，看上去每天做了很多事情，但其实不仅一点进步都没有，还挤占了进步的空间。</p>
+<p>05</p>
+<p><strong>封闭「强化学习」的通道</strong></p>
+<p>在学习或接受信息中，只愿意执行最简单的第一步，却不愿意执行接下来更为复杂的巩固和应用流程，只听不说、只看不写、只学不练，还麻痹自己说学到了很多东西，而实际上，这种「浅层」的学习遗忘极快，有时还不如不学。</p>
+<p>比如，天天学英语，却从不写英语文章；再比如，天天刷知乎，却从不写答案、写总结。</p>
+<hr>
+<ol>
+<li><p>当你给自己画了个圈圈，还永不逾越的时候。</p>
+</li>
+<li><p>当你觉得在你的家族里，就出了你一个大学生，仅仅本科毕了业也很厉害的时候。</p>
+</li>
+<li><p>当你觉得你家里没有门路，比不上那些家里走后门，有门路的同学而自暴自弃的时候。</p>
+</li>
+<li><p>当你觉得自己家里人脉广泛，家里财力富余的时候而不思进取的时候。</p>
+</li>
+<li><p>当你觉得下次努力就好的时候。</p>
+</li>
+<li><p>当你习惯把今天的事情放到明天做的时候。</p>
+</li>
+<li><p>当你今天还做不完昨天的事情，还要放到明天去做的时候。</p>
+</li>
+<li><p>当你总是在碰到困难时安慰自己，觉得自己比我那些没上高中的初中同学，没上大学的高中同学强多了的时候。</p>
+</li>
+</ol>
+<p>转载至：<a href="https://mp.weixin.qq.com/s/6tG9-b_mcIQkyJdcu5mJmQ">https://mp.weixin.qq.com/s/6tG9-b_mcIQkyJdcu5mJmQ</a></p>
+]]></content>
+      <tags>
+        <tag>积极强化学习</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>我在 GitHub 上的开源项目</title>
+    <url>/2019/10/14/201910/%E6%88%91%E5%9C%A8GitHub%E4%B8%8A%E7%9A%84%E5%BC%80%E6%BA%90%E9%A1%B9%E7%9B%AE/</url>
+    <content><![CDATA[<!-- 该页面会被定时任务自动覆盖，所以请勿手工更新 -->
+<!-- 如果你有更漂亮的排版方式，请发 issue 告诉我们 -->
+
+<h3 id="1-sfc-PHP-🤩0-nbsp-nbsp-⭐️4-nbsp-nbsp-🖖3"><a href="#1-sfc-PHP-🤩0-nbsp-nbsp-⭐️4-nbsp-nbsp-🖖3" class="headerlink" title="1. sfc PHP 🤩0&nbsp;&nbsp;⭐️4&nbsp;&nbsp;🖖3"></a>1. <a href="https://github.com/lincome/sfc">sfc</a> <kbd title="主要编程语言">PHP</kbd> <span style="font-size: 12px;"><a href="https://github.com/lincome/sfc/watchers" title="关注数">🤩<code>0</code></a>&nbsp;&nbsp;<a href="https://github.com/lincome/sfc/stargazers" title="收藏数">⭐️<code>4</code></a>&nbsp;&nbsp;<a href="https://github.com/lincome/sfc/network/members" title="分叉数">🖖<code>3</code></a></span></h3><p>laravel5.4+vue2.0开发的顺风车及后台</p>
+<hr>
+<h3 id="2-jxc-🤩0-nbsp-nbsp-⭐️1-nbsp-nbsp-🖖0"><a href="#2-jxc-🤩0-nbsp-nbsp-⭐️1-nbsp-nbsp-🖖0" class="headerlink" title="2. jxc  🤩0&nbsp;&nbsp;⭐️1&nbsp;&nbsp;🖖0"></a>2. <a href="https://github.com/lincome/jxc">jxc</a> <kbd title="主要编程语言"></kbd> <span style="font-size: 12px;"><a href="https://github.com/lincome/jxc/watchers" title="关注数">🤩<code>0</code></a>&nbsp;&nbsp;<a href="https://github.com/lincome/jxc/stargazers" title="收藏数">⭐️<code>1</code></a>&nbsp;&nbsp;<a href="https://github.com/lincome/jxc/network/members" title="分叉数">🖖<code>0</code></a></span></h3><hr>
+<h3 id="3-to-live-🤩0-nbsp-nbsp-⭐️1-nbsp-nbsp-🖖0"><a href="#3-to-live-🤩0-nbsp-nbsp-⭐️1-nbsp-nbsp-🖖0" class="headerlink" title="3. to-live  🤩0&nbsp;&nbsp;⭐️1&nbsp;&nbsp;🖖0"></a>3. <a href="https://github.com/lincome/to-live">to-live</a> <kbd title="主要编程语言"></kbd> <span style="font-size: 12px;"><a href="https://github.com/lincome/to-live/watchers" title="关注数">🤩<code>0</code></a>&nbsp;&nbsp;<a href="https://github.com/lincome/to-live/stargazers" title="收藏数">⭐️<code>1</code></a>&nbsp;&nbsp;<a href="https://github.com/lincome/to-live/network/members" title="分叉数">🖖<code>0</code></a></span></h3><p>活着(余华)</p>
+<hr>
+<h3 id="4-solo-blog-🤩0-nbsp-nbsp-⭐️0-nbsp-nbsp-🖖0-nbsp-nbsp-🏠https-blog-recordsmylife-com"><a href="#4-solo-blog-🤩0-nbsp-nbsp-⭐️0-nbsp-nbsp-🖖0-nbsp-nbsp-🏠https-blog-recordsmylife-com" class="headerlink" title="4. solo-blog  🤩0&nbsp;&nbsp;⭐️0&nbsp;&nbsp;🖖0&nbsp;&nbsp;🏠https://blog.recordsmylife.com"></a>4. <a href="https://github.com/lincome/solo-blog">solo-blog</a> <kbd title="主要编程语言"></kbd> <span style="font-size: 12px;"><a href="https://github.com/lincome/solo-blog/watchers" title="关注数">🤩<code>0</code></a>&nbsp;&nbsp;<a href="https://github.com/lincome/solo-blog/stargazers" title="收藏数">⭐️<code>0</code></a>&nbsp;&nbsp;<a href="https://github.com/lincome/solo-blog/network/members" title="分叉数">🖖<code>0</code></a>&nbsp;&nbsp;<a href="https://blog.recordsmylife.com/" title="项目主页">🏠<code>https://blog.recordsmylife.com</code></a></span></h3><p>lincome 的个人博客 - 记录精彩的程序人生</p>
+<hr>
+<h3 id="5-Localization-of-Gmail-🤩0-nbsp-nbsp-⭐️0-nbsp-nbsp-🖖0"><a href="#5-Localization-of-Gmail-🤩0-nbsp-nbsp-⭐️0-nbsp-nbsp-🖖0" class="headerlink" title="5. Localization-of-Gmail  🤩0&nbsp;&nbsp;⭐️0&nbsp;&nbsp;🖖0"></a>5. <a href="https://github.com/lincome/Localization-of-Gmail">Localization-of-Gmail</a> <kbd title="主要编程语言"></kbd> <span style="font-size: 12px;"><a href="https://github.com/lincome/Localization-of-Gmail/watchers" title="关注数">🤩<code>0</code></a>&nbsp;&nbsp;<a href="https://github.com/lincome/Localization-of-Gmail/stargazers" title="收藏数">⭐️<code>0</code></a>&nbsp;&nbsp;<a href="https://github.com/lincome/Localization-of-Gmail/network/members" title="分叉数">🖖<code>0</code></a></span></h3><p>Localization of Gmail</p>
+]]></content>
+      <tags>
+        <tag>开源</tag>
+        <tag>GitHub</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>在搬砖的路上越走越远</title>
+    <url>/2019/10/17/201910/%E5%9C%A8%E6%90%AC%E7%A0%96%E7%9A%84%E8%B7%AF%E4%B8%8A%E8%B6%8A%E8%B5%B0%E8%B6%8A%E8%BF%9C/</url>
+    <content><![CDATA[<p><img src="https://img.hacpai.com/bing/20180411.jpg?imageView2/1/w/960/h/540/interlace/1/q/100"> </p>
+<h2 id="我所经历的三次裁员"><a href="#我所经历的三次裁员" class="headerlink" title="我所经历的三次裁员"></a>我所经历的三次裁员</h2><p>先从一则新闻说起：</p>
+<blockquote>
+<p>人民网旧金山9月19日电(邓圩 宫欣)当地时间9月19日，位于旧金山湾区Menlo Park的Facebook总部内，一名男子从园区内的一栋办公楼4楼跳下，现场死亡。</p>
+<p>当天下午，Facebook发布声明证实死者为该公司的一名员工，系自杀身亡，目前已经通知了该员工家人。</p>
+</blockquote>
+<p>可能是类似的事情发生的较多，这个事件并没有引起多大反响。直到最近<strong>Facebook华裔员工为自杀同胞求真相遭无理开除</strong>，事件才得以发酵，引发了广泛的关注，许多媒体开始发声。关于这个事件，我其实也没有什么好说，只想借我所亲历的三次裁员，谈谈我的想法。</p>
+<p>第一次裁员发生在2009年，那时我已经三十好几，传说中程序员年龄的上限。公司当时裁掉的是做导航产品的部门，主要原因还不是因为智能手机的冲击，而是做民用终端产品，无法和广东那边的厂家竞争。当然智能手机取代车载导航，也是后来的事情，公司领导当时也看得比较明白，趋势无法阻挡，所以裁员非常彻底，一锅端了。</p>
+<p>第二次裁员发生在2016年，彼时我已年届不惑之年。这次裁员原因很简单，就是有钱的时候拼命招人，最后钱烧完了，没法养这么多人，只好精简。每个项目组都精简一部分人，最后加上自愿走的，差不多有一半，幅度还是相当大。</p>
+<p>第三次裁员发生在2017年年底，这次裁员是因为上次裁过之后，公司仍然没有起色，本来期望和特殊部门合作的项目，也黄了，只好砍掉一些产品线。所以这次裁员也比较粗暴，直接干掉了几个项目组，从上到下，无一幸免。</p>
+<p>经历了这几次裁员，也算是过来人，所以想谈谈对裁员的看法。</p>
+<p>首先，裁员可能并不是我们想象的那样，是因为工作不努力或者能力差，有时真是因为一些不可控原因，比如碰上公司转型、精简产品线，就像我经历的第一次和第三次裁员，都是从上到下一锅端，并不会因为能力强或者人际关系留下。所以，以后如果大家在招聘过程中看到有因为裁员而求职的，不要有歧视，也许别人只是运气不好。而被裁的人，更不要怀疑自己，觉得是因为自己哪里做的不够好，也许是因为你太优秀了，所以现在才不需要你。如果走出去，也许会看到更大的世界，开拓一片新天地。</p>
+<p>其次，我们也要弄清楚个人和企业之间的关系。国庆节看了《我和我的祖国》，其中有一个片段，是讲张译饰演的科研人员，冒着生命危险挽救了一场事故，而因此遭辐射致死。看到这一段，我也很感动，当时研究原子弹的科研人员，因为保密原因，和亲人都无法联系，一心扑在工作上，才有原子弹的诞生，的确令人钦佩。但时代不同，个人和企业之间的关系也发生了很大的变化，变成了雇佣关系。通俗来讲，就是拿钱办事，互不两欠。在现代企业，还冒着生命生命危险去挽救公司财产，那才是脑子进水了。如果厘清了个人和企业之间的关系，不妨以平常心看待裁员，无非是企业不再需要我们，不愿意付钱购买我们的工作时间，也许从情感上讲，有些不近情理。但我们如果反过来想，如果个人因为一些原因辞职，企业和你谈情感，百般阻拦，你是不是也会觉得这家企业有毛病？所以，碰到裁员，不要觉得特别憋屈，好像全世界对不起你。拿到赔偿金，潇洒的走人。如果企业不付赔偿金，违反劳动法，那是另外一个话题，这里就不展开。</p>
+<p>为什么现代企业不像以前那样实行终身制？这是总结了无数失败的案例，才得到现在的企业制度。想想以前的大锅饭，吃着吃着，锅里就没饭了。那种终身制，只适合集中能力干大事的时期，在民用领域，还是竞争促进发展，最为高效。如果你还觉得进一个企业干终身比较好，可以看看隔壁的日本，年轻人没有上升通道，才是一件令人绝望的事情。</p>
+<p>最后，之前发生的几次裁员自杀事件，都是压力过大导致的。这就要求个人不要超出自己负担能力，就如同程序设计一样，留一点冗余。年轻人给自己一点压力不是一点坏事，但这个度最好不要超过自身能力太多。这就如同你平常跑步能跑3公里，下次可以增加到5公里，但不要一下子加码到10公里。对于年轻人来说，最大的负担可能就是买房，需要规划一下首付如何付，月供能承担多少。如果你能负担起100万的房子，咬咬牙也许可以冲击一下150万左右的，但一下子就跳到200万，那就有些过分了。至于什么网贷，就别碰了，那不是普通人能够hold住的。另外预留一两个月的月供和生活费也是必须的，以防遭到裁员，一下子没有经济来源，而生活崩溃。即使真的沦落到无钱还房贷和缺少生活费的地步，也请脸皮放厚一点，向父母、亲戚朋友求援。</p>
+<p>最后的最后，当然是提高自身能力，让你有能力快速找到下一份工作。在这个社会，只要不懒，没病没痛，一份糊口的工作还是百分之百可以找到。</p>
+<p>BTW，保持身体健康也很重要，所以和我一样，跑起来吧！</p>
+<p>转载自：<a href="https://mp.weixin.qq.com/s/d-T6XRGdDl_YJ2Jvu88i2w">https://mp.weixin.qq.com/s/d-T6XRGdDl_YJ2Jvu88i2w</a></p>
+]]></content>
+      <tags>
+        <tag>裁员</tag>
+        <tag>知己知彼</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>送我上青云</title>
+    <url>/2019/11/03/201911/%E9%80%81%E6%88%91%E4%B8%8A%E9%9D%92%E4%BA%91/</url>
+    <content><![CDATA[<h2 id="enjoy-your-life"><a href="#enjoy-your-life" class="headerlink" title="enjoy your life"></a>enjoy your life</h2><p>每个周末开始都是从消沉的意志开始，爬了两天山，呼吸室外新鲜空气得以重生，胡思乱想了很多很多，唯有今晚的电影让我彻底的缓过神来，被癌症影响的主人公还可以如此乐观，不自卑的骄傲的活着，被背圆周率的文艺男弄笑的不行，笑着的心却是极寒的，一定要自己决定自己的人生，要有足够的底气去掌控自己的人生，不低头，勇往直前，，，同时不做“有德无才”的stupid，害人害己！</p>
+<p>奇怪的是将ios的siri语言设置为英文之后，一直 say “hey siri” 无法识别到，语言能力变得越来越脆弱了，have a good night and sweet dreams.</p>
+]]></content>
+      <tags>
+        <tag>人生</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>鸿门宴</title>
+    <url>/2019/11/10/201911/%E9%B8%BF%E9%97%A8%E5%AE%B4/</url>
+    <content><![CDATA[<h2 id="兴趣使然，画个故事脑图"><a href="#兴趣使然，画个故事脑图" class="headerlink" title="兴趣使然，画个故事脑图"></a>兴趣使然，画个故事脑图</h2><p>感叹中华文化博大精深，勾心斗角永无止境<br><a href="http://naotu.baidu.com/file/9a7e19e5979e0dbed48a56efd6ef12fb?token=a8bd1c9f070c4bde">点击查看鸿门宴</a></p>
+]]></content>
+      <tags>
+        <tag>楚汉相争鸿门宴</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>乐观勇敢的活着</title>
+    <url>/2019/12/18/201912/%E4%B9%90%E8%A7%82%E5%8B%87%E6%95%A2%E7%9A%84%E6%B4%BB%E7%9D%80/</url>
+    <content><![CDATA[<h2 id="2019即将过去，焦虑不断升级，用多年前一本书上的一段话镇定自己。"><a href="#2019即将过去，焦虑不断升级，用多年前一本书上的一段话镇定自己。" class="headerlink" title="2019即将过去，焦虑不断升级，用多年前一本书上的一段话镇定自己。"></a>2019即将过去，焦虑不断升级，用多年前一本书上的一段话镇定自己。</h2><blockquote>
+<p>我喜欢我自己，我就是我。没有比这更美好段了，包括我的出生、我的生长，我因为我就是我而庆幸。无论我生在什么时代，我都不愿成为别的什么人，而只愿成为自己。</p>
+</blockquote>
+]]></content>
+      <tags>
+        <tag>乐观</tag>
+        <tag>积极</tag>
       </tags>
   </entry>
 </search>
