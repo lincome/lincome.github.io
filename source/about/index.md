@@ -17,11 +17,12 @@ layout: "about"
 
 ## 技能清单
 
-* 运维：路由器/Docker/Linux/Lnmp/Jenkins
-* 开发：PHP/Python等
-* Web框架：Laravel/ThinkPHP等
+* 运维：路由器/Docker/k8s/Linux/Lnmp/Jenkins/supervisor
+* 开发：PHP/Go/Python/JAVA等
+* Web框架：Laravel/ThinkPHP/workerman/Gin/Spring等
 * 前端框架：Bootstrap/HTML5/CSS/VUE
 * 数据库相关：MySQL/MSSQL/Redis
+* MQ:rabbitmq
 * 版本管理、文档和自动化部署工具：Git/Svn/Markdown/APIDoc/Composer
 
 ## 工作经历
