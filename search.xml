@@ -490,14 +490,15 @@ GmSSL: v1
     <url>/2022/09/15/%E5%BC%80%E5%8F%91%E6%80%BB%E7%BB%93/</url>
     <content><![CDATA[<h2 id="低代码平台不断涌现，开发成本越来越低，随着工具效率越来越高，curd程序员价值也就越来越低，提升培养自己全方面解决问题能力显得尤为重要，现总梳理下整个开发流程以及工具"><a href="#低代码平台不断涌现，开发成本越来越低，随着工具效率越来越高，curd程序员价值也就越来越低，提升培养自己全方面解决问题能力显得尤为重要，现总梳理下整个开发流程以及工具" class="headerlink" title="低代码平台不断涌现，开发成本越来越低，随着工具效率越来越高，curd程序员价值也就越来越低，提升培养自己全方面解决问题能力显得尤为重要，现总梳理下整个开发流程以及工具"></a>低代码平台不断涌现，开发成本越来越低，随着工具效率越来越高，curd程序员价值也就越来越低，提升培养自己全方面解决问题能力显得尤为重要，现总梳理下整个开发流程以及工具</h2><pre><code>php go java vue 
 </code></pre>
-<h3 id="（项目经理）项目管理软件：禅道、tapd-企微-、钉钉、、、"><a href="#（项目经理）项目管理软件：禅道、tapd-企微-、钉钉、、、" class="headerlink" title="（项目经理）项目管理软件：禅道、tapd(企微)、钉钉、、、"></a>（项目经理）项目管理软件：禅道、tapd(企微)、钉钉、、、</h3><p>一、需求分析（整理需求）<br>    1、记录需求点<br>    2、整理脑图xmind、百度脑图、<a href="https://www.processon.com/">https://www.processon.com/</a></p>
+<h3 id="（项目经理）项目管理软件：teambition、禅道、tapd-企微-、钉钉、、、"><a href="#（项目经理）项目管理软件：teambition、禅道、tapd-企微-、钉钉、、、" class="headerlink" title="（项目经理）项目管理软件：teambition、禅道、tapd(企微)、钉钉、、、"></a>（项目经理）项目管理软件：teambition、禅道、tapd(企微)、钉钉、、、</h3><p>一、需求分析（整理需求）<br>    1、记录需求点<br>    2、整理脑图xmind、百度脑图、<a href="https://www.processon.com/">https://www.processon.com/</a></p>
 <p>二、原型设计（产品经理）<br>    1、axure</p>
-<p>三、开发（拆解下达任务）<br>    1、数据库设计：pdmaner<br>    2、选择框架：<br>    route、request、respone、middleware(auth)、valiad、mode、service、 pagination<br>    3、代码管理：gitlab<br>    4、接口api/api文档：yapi/swagger<br>    5、记录开发wiki: conflunce</p>
+<p>三、开发（拆解下达任务）<br>    1、架构选择：<br>        单机、集群、分布式、微服务<br>    2、技术选型：<br>    选择开发语言，多进程/线程/协程、mvc、rest api、缓存、队列、定时任务（按访问量并发量业务需要等，也可以后期进行优化升级）<br>    3、数据库设计：pdmaner<br>    4、选择框架：<br>    route、request、respone、middleware(auth)、valiad、mode、service、 pagination<br>    5、代码管理：gitlab<br>    6、接口api/api文档：yapi/swagger<br>    7、记录开发wiki: conflunce</p>
 <p>四、测试（测试用例）<br>    1、接口测试：postman<br>    2、用例编写：</p>
 <p>五、验收（保持和线上一致的环境）<br>    sql审计：archery-sql</p>
 <p>六、上线（生产）<br>    CI/CD：jenkins<br>    堡垒机：luna-jumpserver<br>    docker/k8s    </p>
 <p>七、线上跟踪（后期维护）<br>    1、日志查看finderweb<br>    2、elk<br>    3、hue大数据</p>
-<p>八、销售推广<br>    1、先有产品再推广<br>    2、还是先有需求再有产品</p>
+<p>八、复盘<br>    复盘整个过程，记录问题，风险点，业务需求变更产生的进度影响下，共享文档，以防下次重复出现，吸取教训借鉴经验，积累成功和失败的经验，为后面的开发提供有价值的参考，以及实际可行的解决方案</p>
+<p>九、销售推广<br>    1、先有产品再推广<br>    2、还是先有需求再有产品</p>
 ]]></content>
       <tags>
         <tag>开发流程</tag>
