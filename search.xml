@@ -476,6 +476,34 @@ GmSSL: v1
       </categories>
   </entry>
   <entry>
+    <title>优雅的秒杀</title>
+    <url>/2022/10/17/%E4%BC%98%E9%9B%85%E7%9A%84%E7%A7%92%E6%9D%80/</url>
+    <content><![CDATA[<p>单体：<br>1、让前端在提交订单后，显示“排队中”</p>
+<pre><code>秒杀接口：
+1、检查缓存中该用户是否已经下单过：在消息队列下单成功后写入redis一条用户id和商品id绑定的数据
+2、检查缓存是否有库存（没有的话查询mysql写入缓存）（redis和mysql一致性处理）
+3、有库存加入队列
+4、队列：
+    查库存
+    mysql乐观锁减库存
+    删缓存
+    写订单到mysql
+    写入订单至缓存供查询
+</code></pre>
+<p>2、查询秒杀接口，检查用户和商品是否已经有订单的接口</p>
+<pre><code>前端不断请求
+很抱歉，你的订单尚未生成，继续排队。（秒杀成功队列处理中）
+如果得到订单已经处理完成的消息，页面跳转抢购成功。
+</code></pre>
+]]></content>
+      <tags>
+        <tag>redis</tag>
+        <tag>rabbitMQ</tag>
+        <tag>秒杀</tag>
+        <tag>超卖</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>永远年轻，永远热泪盈眶。</title>
     <url>/2021/06/08/%E5%8D%9A%E5%AE%A2%E5%8F%88%E4%BB%8Esolo%E6%90%AC%E8%BF%81%E5%9B%9Ehexo/</url>
     <content><![CDATA[<p>几经周折，距上次写博客又快两年了，买了服务器和域名，没想到一忙下又过期了，还是迁移回免费的gitpage省事,今天正好还是2021高考的第二天，未来的你永远都会记得紧张兴奋勇敢的今天，永远年轻，永远热泪盈眶。</p>
