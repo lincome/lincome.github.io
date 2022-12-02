@@ -9,6 +9,7 @@ layout: "about"
 ## 个人介绍
 
 热爱技术，毕业至今一直在IT技术方向上，熟练使用各网络硬件和软件。
+2年运维，8年开发经验，熟练使用 Java/SpringBoot/ Laravel/Thinkphp/Golang  各类开发语言和框架，熟悉缓存、队列、docker、k8s 等主流技术
 
 兴趣爱好：  
 * 爬山、跑步、篮球等
@@ -39,18 +40,22 @@ layout: "about"
 * 微信支付、活动报名、O2O商城等一系列后端接口
 * 管理后台开发维护(基于vue，前后端分离开发)
 
-3 网XX(2017.6 ~)技术主管
+3 网XX(2017.6 ~)php开发
 
- * SEO优化/支付接入/SSO方案实施/系统架构优化等
- * 项目整体需求分析、重难点技术的调研实施
- * 项目的开发进度规划，指导并管理研发人员的开发
- * 负责项目重难点模块的开发工作，项目部署、后期维护
- * 编写技术文档、项目文档
- * 团队建设
+* 销售站基于 Thinkphp、Mysql、Redis、Bootstrap、Jquery的 mvc 框架日常功能迭代以及配合前端数据渲染处理
+* Paypal\Worldpay\INGENICO 等海外流行支付方式接入和更新维护
+* 谷歌、FB 等推广渠道等 seo 优化和持续更新
+* 前端页面静态化、产品目录、国家货币、系统配置、url 重写等写入缓存，静态资源 cdn 配置，提高整站访问速度
+* 管理端基于 Laravel-admin ，引入 Websocket 、客服邮件存入 Elasticsearch 加快全文搜索
+* 技术开发文档、使用文档编写存档
+* 熟练使用 Docker、Git、Gin、Thinkphp、Laravel、Mysql、Redis、Vue  等开发框架和组件
 
 ## 开源项目
 * [顺风车](https://github.com/lincome/sfc)
     * 借鉴滴滴顺风车思路简单的练手开发
+* [折线图](https://github.com/lincome/sfc)
+    * go-zero、vue3.0、axios、Element-UI、echarts  折线图展示，前后端分离，直观展示数据变动
+    预览：https://lindesigner.eu.org/front-house
 
 ## 教育经历
 * 2009.9 ~ 2012.9 专科 计算机网络技术
